@@ -15,6 +15,9 @@ module.exports = db.define('user', {
   },
   salt: {
     type: Sequelize.STRING
+  },
+  google_id: {
+    type: Sequelize.STRING
   }
 }, {
   instanceMethods: {

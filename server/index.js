@@ -25,7 +25,7 @@ app.use(session({
 }));
 
 // Initializing Passport [passport is authentication middleware]
-app.use(passport.initiailize());
+app.use(passport.initialize());
 app.use(passport.session());
 
 passport.serializeUser((user, done) => {
